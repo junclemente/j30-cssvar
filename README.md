@@ -12,3 +12,6 @@ This project is a practice in writing vanilla JavaScript and to learn about othe
 
 
 #### Project takeaways
+* Create CSS variables using `:root { --var-name: value }`
+* Create custom html attributes using `data-*`, ie. `data-sizing`
+* Access attribute with JavaScript using `this.dataset.*`, ie. `this.dataset.sizing`

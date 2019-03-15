@@ -8,10 +8,11 @@ I recently heard about Wes Bos and also his 30 Day JavaScript challenge. It's a 
 This project is a practice in writing vanilla JavaScript and to learn about other use cases.
 
 ### View Project
-<!-- [Click here to view the live project.](https://junclemente.github.io/j30-cssclock/) -->
+[Click here to view the live project.](https://junclemente.github.io/j30-cssvar/)
 
 
 #### Project takeaways
 * Create CSS variables using `:root { --var-name: value }`
 * Create custom html attributes using `data-*`, ie. `data-sizing`
 * Access attribute with JavaScript using `this.dataset.*`, ie. `this.dataset.sizing`
+* Use `document.documentElement.style.setProperty` to change value of CSS variable
